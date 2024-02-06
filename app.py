@@ -8,7 +8,7 @@ def main():
 			return n
 		else:
 			return(fib(n-1) + fib(n-2))
-	iterations = 25:
+	iterations = 25
 	arr = []
 	for i in range(iterations):
 		arr.append(fibonacci(i))
