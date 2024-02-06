@@ -3,5 +3,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-	name = input("What is your name?")
-	return name
+	def fib(n):
+		if n<= 1:
+			return n
+		else:
+			return(fib(n-1) + fib(n-2))
+	iterations = 25:
+	arr = []
+	for i in range(iterations):
+		arr.append(fibonacci(i))
+	return arr
