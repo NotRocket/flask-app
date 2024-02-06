@@ -11,5 +11,5 @@ def main():
 	iterations = 25
 	arr = []
 	for i in range(iterations):
-		arr.append(fibonacci(i))
+		arr.append(fib(i))
 	return arr
