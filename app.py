@@ -2,5 +2,6 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
-	return "Hello MSOE!"
+def main():
+	name = input("What is your name?")
+	return name
